@@ -1,11 +1,12 @@
 # AngularTodoApp
 
-This project is a basic CRUD todo app and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+This project is a basic CRUD todo app with JSON server and was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
 ## Development server
 
-First, run `npm install` to install packages.
-Then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- First, run `npm install` to install packages.
+- Then run `npm run server` to run JSON server at `http://localhost:3000`.
+- Then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
