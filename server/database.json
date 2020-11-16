@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "First",
+      "detail": "This is the first todo.",
+      "id": 1
+    },
+    {
+      "title": "Second",
+      "detail": "This is the second todo.",
+      "id": 2
+    },
+    {
+      "title": "Updated",
+      "detail": "This is the updated todo.",
+      "id": 3
+    }
+  ]
+}

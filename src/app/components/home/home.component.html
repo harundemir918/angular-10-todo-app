@@ -1,0 +1,26 @@
+<div>
+  <h1>My Todos</h1>
+  <button class="btn btn-primary my-3" routerLink="/create" routerLinkActive="active">New Todo</button>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th width="250">Title</th>
+        <th width="1250">Detail</th>
+        <th width="500">Options</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let todo of todos">
+        <th>{{todo.id}}</th>
+        <td>{{todo.title}}</td>
+        <td>{{todo.detail}}</td>
+        <td>
+          <button class="btn btn-success mr-3" routerLink="/details/{{todo.id}}">Detail</button>
+          <button class="btn btn-primary mr-3" routerLink="/update/{{todo.id}}">Update</button>
+          <button class="btn btn-danger" routerLink="/delete/{{todo.id}}">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
